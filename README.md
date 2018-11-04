@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/iosjennifer/iosjennifer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iosjennifer/iosjennifer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Online test questions
+### 1. NSDate's timeIntervalSinceNow can NOT be used for:
+   a. profiling code<br>
+   b. measuring total application startup time<br>
+   c. measuring the time a method took to run in two different threads<br>
+   d. measuring time since the user performed an action<br>
+   e. measuring the time it takes a section of code to run<br>
+### 2. `-(void)processData:(id)someData{}`<br>Based on the sample code above, which code do you use to test if someData is an NSString?
+   a. ```if([someData isTypeOf:[NSString getClass]])```<br>
+   b. ```if([someData isClass:@"NSString"])```<br>
+   c. ```if([someData isClass:NSString])```<br>
+   d. ```if([someData isKindOfClass:[NSString class]])```<br>
+   e. ```if([someData isOfKind:[NSString class]])```<br>
+### 3. In regard to autorelease pools, which additional step do you take when you detach a thread?
+   a. Create your own autorelease pool for it<br>
+   b. Do not use autorelease objects of any kind in the thread's code<br>
+   c. Do not drain or release the autorelease pool created in the main thread<br>
+   d. Get a reference to the autorelease pool created in the main thread<br>
+   e. Ensure the threads share a memory page so the parent thread's autorelease pool can manage the thread's objects<br>
