@@ -17,3 +17,15 @@
    c. Do not drain or release the autorelease pool created in the main thread<br>
    d. Get a reference to the autorelease pool created in the main thread<br>
    e. Ensure the threads share a memory page so the parent thread's autorelease pool can manage the thread's objects<br>
+### 4. How do you write code to get an instance of a class UISuperBlog which may now be present at runtime?
+   a. `Class superBlog = [[UISuperBlog alloc] init];`<br>
+   b. `Class superBlog = [[NSClassFromString(@"UISuperBlog") alloc] init];`<br>
+   c. `Class superBlog = [[NSClassFromString("UISuperBlog") malloc] init];`<br>
+   d. `Class superBlog = [[NSClassIfExists(@"UISuperBlog") alloc] init];`<br>
+   e. `Class superBlog = [[NSClassAtRuntime(@"UISuperBlog") alloc] init];`<br>
+### 5. When you create a UINavigationController, which components are automatically created along with it?
+   a. UIWindow and UINavigationBar<br>
+   b. UISubView and UIContainer<br>
+   c. UIView and UINavigationBar<br>
+   d. UIView and UINatigationItem<br>
+   e. UIScrollView and UIWindow<br>
