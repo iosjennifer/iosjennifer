@@ -42,26 +42,26 @@
    d. `NSNotification* additionalData = [notification extendedData];`<br>
    e. `NSDictionary* additionalData = [notification userInfo];`<br>
 ### 7. You are writing a relatively simple application that runs on a simple thread. You have a number of classes, each with a number of synthesized properties. You notice that your application appears to be slower than expected when doing a large number of property get/set operations. Based on this scenario, which change do you make to maximize the application's performance?
-    a. Use an autorelease pool when accessing the properties.<br>
-    b. Ensure all properties specify the atomic attribute.<br>
-    c. Change the properties to nonatomic.<br>
-    d. Add retain to all property directives.<br>
-    e. Write custom accessors and mutators.<br>    
+   a. Use an autorelease pool when accessing the properties.<br>
+   b. Ensure all properties specify the atomic attribute.<br>
+   c. Change the properties to nonatomic.<br>
+   d. Add retain to all property directives.<br>
+   e. Write custom accessors and mutators.<br>    
 ### 8. Which is the default setter semantic attribute?
-    a. strong<br>
-    b. retain<br>
-    c. copy<br>
-    d. weak<br>
-    e. assign<br>    
+   a. strong<br>
+   b. retain<br>
+   c. copy<br>
+   d. weak<br>
+   e. assign<br>    
 ### 9. How do you change the interval of an existing NSTimer?
-    a. Change the interval property of it.<br>
-    b. Call the cancelTimer method and then create a new one.<br>
-    c. Set the reference to it to nil.<br>
-    d. Call the changeInterval method on it.<br>
-    e. Invalidate it and then create a new one.<br>   
+   a. Change the interval property of it.<br>
+   b. Call the cancelTimer method and then create a new one.<br>
+   c. Set the reference to it to nil.<br>
+   d. Call the changeInterval method on it.<br>
+   e. Invalidate it and then create a new one.<br>   
 ### 10. The addSubview method of UIView retains:
-    a. neither the view nor the controller.<br>
-    b. the view and controller, if derived form Retainable.<br>
-    c. both the view and the controller.<br>
-    d. the view but not the controller.<br>
-    e. the controller but not the view.<br>
+   a. neither the view nor the controller.<br>
+   b. the view and controller, if derived form Retainable.<br>
+   c. both the view and the controller.<br>
+   d. the view but not the controller.<br>
+   e. the controller but not the view.<br>
